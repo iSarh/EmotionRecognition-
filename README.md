@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on real-time emotion recognition from video using deep learning techniques. The system utilizes a Convolutional Neural Network (CNN) trained on facial expression data to classify emotions into seven categories: Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise. The model is implemented using TensorFlow and Keras, and OpenCV is used for video processing.
+This project focuses on real-time emotion recognition from video using deep learning techniques. The system utilizes a Convolutional Neural Network (CNN) trained on facial expression data to classify emotions into seven categories: Angry, Disgust, Fear, Happy, Neutral, Sad, and Surprise. The model is implemented using TensorFlow and Keras, and add is used for video processing.
 
 ## Features
 
@@ -54,18 +54,19 @@ Make sure to update the video path inside `test_video.py` accordingly.
 
 The model achieves an accuracy of approximately 76% after 10 epochs of training. Performance may vary based on dataset quality and preprocessing techniques.
 
+## The Result
+
+The model provides real-time emotion predictions on video frames. However, accuracy may depend on lighting conditions, facial expressions, and video quality. Further optimization can improve prediction stability and precision.
+
+https://github.com/user-attachments/assets/69342333-2d4f-4504-a5c1-818002c2c4c5
+
+
 ## Future Improvements
 
 - Enhance accuracy by using a more diverse and larger dataset.
 - Optimize model architecture for better real-time performance.
 - Implement real-time webcam-based emotion recognition.
 - Improve frame processing speed for smoother video playback.
-
-## The Ruslt
-
-
-https://github.com/user-attachments/assets/e4919836-d2d6-48a4-9bd0-6a3bfc63c7e7
-
 
 ## License
 
