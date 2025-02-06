@@ -30,6 +30,8 @@ pip install tensorflow keras opencv-python numpy
 
 The model is trained on a dataset of 28,709 facial images belonging to seven emotion classes. The images are preprocessed to a size of 48x48 pixels.
 
+Dataset source: [FER2013 Dataset on Kaggle](https://www.kaggle.com/datasets/msambare/fer2013)
+
 ## Training the Model
 
 To train the model, run:
@@ -53,10 +55,6 @@ Make sure to update the video path inside `test_video.py` accordingly.
 ## Model Performance
 
 The model achieves an accuracy of approximately 76% after 10 epochs of training. Performance may vary based on dataset quality and preprocessing techniques.
-
-## The Result
-
-The model provides real-time emotion predictions on video frames. However, accuracy may depend on lighting conditions, facial expressions, and video quality. Further optimization can improve prediction stability and precision.
 
 https://github.com/user-attachments/assets/69342333-2d4f-4504-a5c1-818002c2c4c5
 
